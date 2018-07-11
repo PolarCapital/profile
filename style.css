@@ -29,7 +29,7 @@ a:hover {
 #content {
   width: 1200px;
   margin: 0 auto;
-  margin-left: 150px;
+  margin-left: 180px;
 }
 
 .text-center {
@@ -99,8 +99,21 @@ a:hover {
   font-weight: 300;
   font-size: 15px;
   line-height: 1.6em;
+  margin:0 auto;
 }
 
 #games img{
   width: 150px;
+  height: 170px;
 }
+
+#games h3{
+  font-size: 18px;
+  color: #434444;
+}
+
+#games p{
+  text-align: justify;
+}
+
+
