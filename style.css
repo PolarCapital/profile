@@ -26,17 +26,81 @@ a:hover {
   border-radius: 50%;
 }
 
-.container {
-  width: 700px;
+#content {
+  width: 1200px;
   margin: 0 auto;
+  margin-left: 150px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .card {
-  text-align: center;
   margin-bottom: 20px;
   padding: 50px;
   background: white;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.fab {
+  display: inline-block;
+}
+
+
+/*side bar*/
+
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 150px;
+  text-align: center;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#sidebar li {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#sidebar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+/*link*/
+
+.list-inline {
+    padding-left: 0;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 40px;
+}
+
+.list-inline li i {
+  font-size: 50px;
+}
+
+/* game */
+
+#games {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+#games img{
+  width: 150px;
 }
